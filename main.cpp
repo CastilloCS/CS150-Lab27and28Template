@@ -1,10 +1,12 @@
 #include <iostream>
-
+#include "PetRecord.h"
 using namespace std;
 
 int main()
 {
-  //Your code goes here!
+  PetRecord test("Fluffy",3,21.4);
+
+  test.print();
 
   return 0;
 }
